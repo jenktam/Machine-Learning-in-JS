@@ -254,7 +254,7 @@ describe('Testing the basic KNN functionality.', function(){
 describe('Testing the KNN with data from the MNIST', function(){
 
 	//Need more time, to handle all the data.
-	this.timeout(10000);
+	this.timeout(100000);
 
 	it('Can handle somewhat chaotic data', function(){
 		var knn = new KNN(1);
